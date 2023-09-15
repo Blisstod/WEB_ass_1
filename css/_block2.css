@@ -1,12 +1,35 @@
 .block2{
-    background-color: black;
+    background-color: #3b3b3b;
 }
 
-.subblock{
-    margin: 0 250px;
-}
-
-.description{
+.place-title{
     color: #fff;
-    font-size: 25px;
+    font-size: 44px;
+    text-align: center;
+    padding: 20px 0 55px 0;
 }
+
+.places{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+.place{
+    display: inline-block;
+    overflow: hidden;
+}
+.place:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.place img{
+    width: auto;
+    height: 280px;
+
+    transition: .7s;
+}
+
+.place img:hover{
+    transform: scale(1.3);
+}
+

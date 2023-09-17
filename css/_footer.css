@@ -1,20 +1,22 @@
 .footer {
     min-height: 300px;
     padding: 50px 0;
-    background-color: #fff;
+    background-image: url(https://www.enjpg.com/img/2020/gym.jpg);
 }
 
 .footer__text {
     text-align: center;
+    color: #fff;
 }
 
 .footer__phone {
+    font-size: 25px;
     display: block;
     margin: 0 auto;
     margin-top: 40px;
     text-align: center;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .footer__socials {
@@ -27,8 +29,21 @@
 .footer__social {
     height: 30px;
     width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__icon {
     width: 100%;
+}
+
+.footer__round {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
 }

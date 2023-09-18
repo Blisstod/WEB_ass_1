@@ -34,5 +34,6 @@
 
 .place img:hover{
     transform: scale(1.3);
+    z-index: 1;
 }
 
